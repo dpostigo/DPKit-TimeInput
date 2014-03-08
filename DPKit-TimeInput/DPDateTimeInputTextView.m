@@ -34,7 +34,6 @@
     dateValue = dateValue == nil ? [NSDate date] : dateValue;
 
     NSRange range = [self rangeForProposedRange: self.selectedRange];
-    NSRange lastRange = [self lastRangeForString: self.string];
 
     if (NSEqualRanges(range, [self firstRangeForString: self.string])) {
         self.dateValue = [dateValue dateBySubtractingHours: 1];

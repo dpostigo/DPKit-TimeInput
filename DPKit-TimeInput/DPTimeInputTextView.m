@@ -69,7 +69,6 @@
 
 - (void) moveUp: (id) sender {
     NSRange range = [self rangeForProposedRange: self.selectedRange];
-    NSRange lastRange = [self lastRangeForString: self.string];
 
     NSLog(@"self.minuteRange = %@", NSStringFromRange(self.minuteRange));
 
