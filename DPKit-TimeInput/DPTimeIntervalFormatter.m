@@ -74,7 +74,7 @@
         if (showsHours) [string appendFormat: @"%@:", hoursString];
         if (showsMinutes) [string appendFormat: @"%@:", minutesString];
         if (showsSeconds) [string appendFormat: @"%@:", secondsString];
-        if (showsMilliseconds) [string appendFormat: @"%@:", showsMilliseconds];
+        if (showsMilliseconds) [string appendFormat: @"%@:", millisecondsString];
 
         NSUInteger lastIndex = [string length] - 1;
         NSString *lastCharacter = [string substringFromIndex: lastIndex];

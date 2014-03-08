@@ -52,7 +52,7 @@
 - (void) moveDown: (id) sender {
 
     NSRange range = [self rangeForProposedRange: self.selectedRange];
-    NSRange lastRange = [self lastRangeForString: self.string];
+//    NSRange lastRange = [self lastRangeForString: self.string];
 
     if (NSEqualRanges(range, self.hourRange)) {
         self.intervalValue -= 60 * 60;
