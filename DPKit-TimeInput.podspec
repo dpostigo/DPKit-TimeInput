@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DPKit-TimeInput"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "DPKit-TimeInput"
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :osx, '10.8'
 
 
-  s.dependency     'DPKit'
+  s.dependency     'DPKit-Utils'
   s.dependency     'DPKit-Styles'
   s.dependency     'DPKit-NSTextField'
   s.frameworks   = 'Foundation', 'QuartzCore'
